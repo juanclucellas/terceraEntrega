@@ -1,0 +1,66 @@
+/*index*/
+
+body{
+    background-color: #8d99ae;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-inicio{
+    display: flex;
+    justify-content: center;
+}
+
+/*Redes*/
+
+.redes{
+    display: flex;
+    text-align: center;
+    display: block;
+    gap: 30px;
+    
+}
+
+/*Biografia*/
+
+.img-bio{
+    display: flex;
+    justify-content: center;
+}
+
+/*Proximos Shows*/
+
+.img-show{
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap ;
+}
+
+.entradas{
+    
+    list-style: none;
+}
